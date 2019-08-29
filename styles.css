@@ -1,0 +1,105 @@
+nav{
+  weight: 99%;
+  height: 90px;
+  
+}
+body{  
+  background-color: lightgray;
+}
+
+.left{
+  
+  padding-left: 30px;
+  padding-top: 50px;
+  margin-left: 70px;
+  margin-top:50px;
+  background-color: white;
+  
+}
+.intro{
+  height:100%;
+  width:100%; 
+  
+ 
+}
+.Temp{
+  border: 3px solid teal; 
+  
+}
+.photo{
+  width:100%;
+  height:100%;
+}
+.right{
+  padding-left: 30px;
+  padding-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top:50px;
+  margin-bottom: 100px;
+  background-color: white;
+
+}
+.navbar-brand
+{
+  
+  color: white;
+  font-size: 35px;
+  margin-left:60px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: LightSeaGreen;
+  padding:20px;
+  }
+
+h2 {
+  color:lightseagreen;
+  align-content: center;
+}
+h3 {
+  color:lightseagreen;
+  align-content: center;
+}
+
+h6{
+  color:lightseagreen;
+  align-content: center;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+p1{
+  color: grey;
+}
+.para{
+  padding-top:20px;
+  padding-left: 50px;  
+}
+.para1{
+  padding-top:5px;
+  padding-left: 50px; 
+}
+.picture{
+  padding-top: 20px;
+  }
+.para2{
+  padding-left:-400px;
+  }
+
+.bottom-block{
+  margin-top:20px;
+ bottom: 0;
+ width: 100%;
+ background: gray;
+ padding: 16px;
+ text-align: center;
+ color: white;
+ border-top: 6px solid teal;
+}
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Windspeed visualization</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  
+</head>
+<body>
+    <div id="app" class="container-fluid">
+        <nav class="navbar navbar-expand-md  text-light bg-white ">
+          <a class="navbar-brand" href="LatitudeAnalysisDashboard.html">Lattitude</a>
+          <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto">
+    
+            </ul>
+            <ul class="navbar-nav">
+          <div class="btn-group ">
+              <div class="dropdown">
+                  <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+                    Plots
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Visualization_Temp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="Visualization_Cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="Visualization_Humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="Visualization_WindSpeed.html">Wind Speed</a>
+                  </div>
+                
+                <a href="Comparison.html"><button type="button" class="btn btn-default">Comparison</button></a>
+              <a href="Data.html"><button type="button" class="btn btn-default">Data</button></a>
+            </div> 
+          </div>
+        </nav>
+      </div> 
+  <div class="row">
+    
+      <div class="col-md-6 box left">
+          
+        <div class="col-md-12">
+          <h2>WindSpeed</h2>
+          <hr/>
+          
+          <div class="row">
+            <div class="picture">
+                <img class="intro" src="Resources\assets\images\WindSpeed.png" alt="Latitude vs Temperature">
+            </div>
+            <div class="col-md-12 ">            
+            <p class="para" >              
+                As expected, the weather becomes significantly warmer as one approaches the equator (0 Degr. Latitude).
+                More Interestingly, however, is the fact  that the southern hemisphere tends to be  warmer this time of the year
+                than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered
+            </p>
+          
+          
+            
+          </div>
+          
+        
+            
+        </div>
+        </div>
+
+      </div>
+      <div class="col-md-5 box right">
+        <div class="col-md-12 a1">
+          <h2>Visualizations</h2>
+          <hr/>
+          <div class="row"> 
+            <div class="column">
+              
+              <a class="photo" href="Visualization_Temp.html"><img   src="Resources\assets\images\MaxTemp.png" alt="Latitude vs Temperature"></a>
+              <a class="photo" href="Visualization_Humidity.html"><img src="Resources\assets\images\Humidity.png" alt="Latitude vs Humidity"> </a>                                    
+            </div>
+            <div class="column">
+              
+              <a class="photo" href="Visualization_Cloudiness.html"><img src="Resources\assets\images\cloudiness.png" alt="Latitude vs cloudiness"></a>
+              <a class="photo" href="Visualization_WindSpeed.html"><img class="Temp" src="Resources\assets\images\WindSpeed.png" alt="Latitude vs Wind Speed"></a>
+                                 
+            </div>
+          </div>        
+        </div>     
+      </div>
+    
+      
+  
+
+
+    </nav>
+        
+    </div>  
+  </div> 
+  <div class="bottom-block">
+      &#169; Copyright Coding Bootcamp 2017
+    </div>
+</body>
+
+</html>
